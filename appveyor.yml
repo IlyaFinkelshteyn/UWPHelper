@@ -11,12 +11,12 @@ branches:
   - dev
   - ci-preparations
 skip_tags: true
-image: Visual Studio 2017
+image: Visual Studio 2015
 configuration: Release
 platform:
 - x86
-- x64
-- ARM
+#- x64
+#- ARM
 assembly_info:
   patch: true
   file: SharedAssemblyInfo.cs
